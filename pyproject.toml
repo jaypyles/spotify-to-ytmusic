@@ -1,0 +1,19 @@
+[project]
+name = "spotify-to-ytmusic"
+version = "0.1.0"
+description = "Trasfer liked songs from your Spotify account to your YouTube Music account"
+authors = [
+    {name = "Jayden Pyles", email = "jpylesbusiness@gmail.com"},
+]
+dependencies = [
+    "spotipy>=2.24.0",
+    "ytmusicapi>=1.8.1",
+    "python-dotenv>=1.0.1",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
